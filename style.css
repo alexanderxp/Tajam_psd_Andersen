@@ -1,1 +1,6 @@
-
+body {
+	font-family: 'Roboto Regular', arial;
+    font-family: 'Roboto Thin', arial;
+    font-family: 'Roboto Light', arial;
+    font-family: 'Roboto Black', arial;
+}
