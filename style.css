@@ -2,7 +2,8 @@ body {
 	margin: 0;
 	font-family: 'Raleway', sans-serif;             
 	font-size: 14px;                                 
-        color: #6c7279    
+        color: #6c7279  ;
+        background-color: #000; 
 }              
 
 *,
@@ -31,13 +32,19 @@ body {
 	padding: 35px 0;                          
 }          
 
-/* ============== Nav ============= */      
-.nav {                             
-	font-size : 13px;                   
-	font-weight: 700;                   
-}                                          
- 
-.nav__link {                              
-	color: fff;                     
-}                                         
+/* ============== Nav ============= */ 
+.nav {
+	font-size : 13px;
+	font-weight: 700;
+	text-transform: uppercase;       
+}
+
+.nav__link {
+	color: #fff;
+	text-decoration: none;             
+}
+
+.nav__link:hover {                         
+	text-decoration: underline;      
+}                                                                  
                      
