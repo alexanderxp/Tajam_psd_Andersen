@@ -1,6 +1,6 @@
 body {
     margin: 0; 
-	font-family: 'Roboto Regular', arial;
+    font-family: 'Roboto Regular', arial;
     font-family: 'Roboto Thin', arial;
     font-family: 'Roboto Light', arial;
     font-family: 'Roboto Black', arial;
@@ -13,3 +13,15 @@ body {
 *:after  {                                            
 	box-sizing: border-box;                
 }  
+
+/* ============== Container ============= */          
+
+.container {                                           
+
+}   
+
+/* ============== Header ============= */           
+
+.header {                                           
+
+}      
