@@ -29,27 +29,31 @@ body {
 .header__inner {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;                
+	align-items: center;
 	padding: 35px 0;
 }    
 
 /* ============== Nav ============= */ 
 .nav {
-	display: flex;                         
+	display: flex; 
 	font-size : 13px;
 	font-weight: 700;
 	text-transform: uppercase;
 }
 
 .nav__link {
-	margin-left: 50px;                    
+	margin-left: 50px; 
 	color: #fff;
 	text-decoration: none;
-	opacity: 0.75;                        
-	transition: opacity 0.1s lenear;      
+	opacity: 0.75;
+	transition: opacity 0.1s lenear;
 }
 
+.nav__link:first-child {            
+	margin-left: 0;          
+}                                  
+
 .nav__link:hover {
-	text-decoration: underline; 
-	opacity: 1;                          
+	text-decoration: underline;
+	opacity: 1;
 }
