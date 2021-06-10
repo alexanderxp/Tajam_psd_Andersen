@@ -17,11 +17,18 @@ body {
 /* ============== Container ============= */          
 
 .container {                                           
-
+	width: 100%;                          
+	max-width: 1595px;                     
+	margin: 0 auto;                         
 }   
 
-/* ============== Header ============= */           
+/* ============== Header ============= */          
 
-.header {                                           
+.header {                                         
+	padding: 35px 0;         
+}           
 
-}      
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+}         
