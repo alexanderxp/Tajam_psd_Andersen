@@ -1,6 +1,15 @@
 body {
+    margin: 0; 
 	font-family: 'Roboto Regular', arial;
     font-family: 'Roboto Thin', arial;
     font-family: 'Roboto Light', arial;
     font-family: 'Roboto Black', arial;
+    font-size: 14px;                                 
+    color: #ffffff;
 }
+
+*,
+*:before,
+*:after  {                                            
+	box-sizing: border-box;                
+}  
