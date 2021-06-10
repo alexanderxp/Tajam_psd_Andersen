@@ -28,5 +28,16 @@ body {
 .header__inner {
 	display: flex;
 	justify-content: space-between;
-	padding: 35px 0;                         
-}              
+	padding: 35px 0;                          
+}          
+
+/* ============== Nav ============= */      
+.nav {                             
+	font-size : 13px;                   
+	font-weight: 700;                   
+}                                          
+ 
+.nav__link {                              
+	color: fff;                     
+}                                         
+                     
